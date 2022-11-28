@@ -1,0 +1,70 @@
+body {
+  font-family: 'Wallpoet', cursive;
+  background: linear-gradient(178deg, #000000 0%, #04271C 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color:#f1f5f9;
+  text-align: center;
+  padding:1em;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+textarea {
+  font-family: 'Wallpoet', cursive;
+  border: 3px solid white;
+  border-radius: 10px;
+  width: 90%;
+  max-width:700px;
+  font-size: 2rem;
+  margin: 0 auto;
+  outline: none;
+  height: 200px;
+  line-height: 1.5;
+  background: #00b800;
+  padding: 0.3125em;
+}
+textarea:disabled {
+  background-color: #a5a2a2;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px;
+  color:#fff;
+  width:150px;
+  height:50px;
+  cursor: pointer;
+  background: #00b800;
+  padding: 0.625em 0.5em;
+  text-transform: uppercase;
+  
+}
+button:disabled {
+  cursor: not-allowed;
+}
+button:hover{
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+footer {
+  font-size: 2rem;
+  color:#5ae9b9;
+}
